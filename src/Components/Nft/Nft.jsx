@@ -8,7 +8,6 @@ const options = {
 };
 
 const Nft = () => {
-  const [nft, setNft] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(false);
   const [address, setAddress] = useState("0x437a17a4c3dac45e507e5636871952eeb4aba247");
@@ -27,6 +26,9 @@ const Nft = () => {
   // ME
   // 0x437a17a4c3dac45e507e5636871952eeb4aba247
 
+  // MAYBE ADD GALLERY VIEW
+
+  // PLAY WITH LIMITS
 
 
   useEffect(()=>{
@@ -61,15 +63,6 @@ const Nft = () => {
     }
 
   } 
-
-
-  // console.log(collection);
-
-  // TO DO
-
-  // MAYBE ADD GALLERY VIEW
-
-  // PLAY WITH LIMITS
 
   const submitForm = (e) =>{
     e.preventDefault();
