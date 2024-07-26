@@ -67,8 +67,9 @@ const Nft = () => {
 
   // TO DO
 
-  // TEST NFT ADDRESS BUTTONS, LIKE SNOOP DOGG ETC
+  // MAYBE ADD GALLERY VIEW
 
+  // PLAY WITH LIMITS
 
   const submitForm = (e) =>{
     e.preventDefault();
