@@ -1,11 +1,13 @@
 import './App.css'
+import Nft from './Components/Nft/Nft'
+
 
 function App() {
 
   return (
-    <>
-    <h1>nft yo</h1>
-    </>
+    <div>
+      <Nft/>
+    </div>
   )
 }
 

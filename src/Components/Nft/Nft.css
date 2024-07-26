@@ -1,0 +1,165 @@
+
+
+.nft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5%;
+}
+
+.title{
+    margin: 10px 0px;
+    color: white;
+}
+.address{
+    margin: 10px 0px;
+    color: white;
+}
+
+.background{
+    /* border: 5px solid rgba(184, 184, 184, 0.25); */
+    /* border-radius: 18px; */
+    
+    width: 750px; 
+    height: max-content; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-holder{
+    margin-bottom: 10px;
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.nft-image{
+    width: 300px;
+    /* height: auto; */
+    max-height: 350px;
+}
+
+.index-indicator{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.current-index{
+    color: white;
+}
+
+.nav-holder{
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 30px;
+}
+
+.back-button, .next-button{
+    width: 225px;
+    height: 50px;
+    background-color: rgb(0, 145, 255);
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(0, 107, 189);
+    border-style: solid;
+    font-size: 1.2rem;
+}
+
+.back-button:hover, .next-button:hover{
+    scale: 1.05;
+    background-color: rgb(77, 178, 255);
+}
+
+.status{
+    height: 25px;
+    color: white;
+}
+
+/* .loading-text{
+    color: white;
+} */
+
+.input-form{
+    margin-bottom: 50px;
+}
+
+form{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 20px;
+}
+
+.text-area{
+    width: 325px;
+    height: 35px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(165, 165, 165);
+}
+
+.text-area:focus{
+    outline-color: rgb(0, 179, 255);
+}
+
+.submit-button{
+    width: 75px;
+    height: 35px;
+    background-color: rgb(3, 208, 0);
+    color: white;
+    border-radius: 20px;
+    border-color: rgb(2, 136, 0);
+    border-style: solid;
+}
+
+.submit-button:hover{
+    scale: 1.1;
+}
+
+.example-buttons{
+    width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    /* background-color: white; */
+}
+
+.example-button{
+    width: 115px;
+    height: 40px;
+    background-color: rgb(255, 157, 0);
+    border-color: rgb(173, 107, 0);
+    border-radius: 5px;
+    color: white;
+}
+
+@media(max-width: 700px){
+    .back-button, .next-button{
+    width: 190px;
+}
+
+form{
+    flex-direction: column;
+}
+
+.example-buttons{
+    width: 420px;
+}
+
+}
